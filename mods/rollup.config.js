@@ -33,8 +33,10 @@ export default {
         terser({
             ecma: '5',
             mangle: true,
+            maxWorkers: 1,
         }),
         replace({
+            preventAssignment: true,
             '\uFFFF': '\u0000',
         })
     ]

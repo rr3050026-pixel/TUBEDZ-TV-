@@ -238,26 +238,26 @@
             }
         },
         "ttSettings": {
-            "title": "TizenTube Settings",
-            "madeByText": "Made by Reis Can (reisxd) with ❤️",
-            "summary": "Open TizenTube Settings"
+            "title": "TubeDZ TV Settings",
+            "madeByText": "Customized for TubeDZ TV with ❤️",
+            "summary": "Open TubeDZ TV Settings"
         },
         "supportTT": {
-            "title": "Support TizenTube",
-            "subtitle": "❤️ Show support for TizenTube and its development",
+            "title": "About TubeDZ TV",
+            "subtitle": "📺 Private YouTube client for Samsung Tizen TV",
             "content": {
-                "1": "If you enjoy using TizenTube and would like to support its development, consider the following:",
-                "2": "1. Star the GitHub repository to help increase its visibility.",
-                "3": "2. Share TizenTube with others.",
-                "4": "If you would like to contribute financially, consider donating:",
-                "5": "- Buy Me A Coffee: https://www.buymeacoffee.com/reisxd (preferably)",
-                "6": "- GitHub Sponsors: https://github.com/sponsors/reisxd"
+                "1": "TubeDZ TV is a private ad-free and sponsor-free YouTube player.",
+                "2": "Custom built for private and personal use.",
+                "3": "Includes AdBlock and SponsorBlock integration.",
+                "4": "You can customize settings from this menu.",
+                "5": "Private repository: https://github.com/rr3050026-pixel/TUBEDZ-TV-",
+                "6": "Version 2.1.1"
             }
         }
     },
     "welcomeMsg": {
-        "title": "Welcome to TizenTube",
-        "subtitle": "Go to settings and click on TizenTube Settings for settings."
+        "title": "Welcome to TubeDZ TV",
+        "subtitle": "Go to settings and click on TubeDZ TV Settings for settings."
     },
     "sponsorblock": {
         "segments": {

@@ -1,12 +1,12 @@
 {
-  "name": "@foxreis/tizentube",
-  "appName": "TizenTube",
+  "name": "@tubedz/tv",
+  "appName": "TubeDZ TV",
   "version": "1.15.2",
-  "description": "TizenTube is an ad-free and sponsor-free solution for your favourite streaming website on your Tizen (Samsung) TVs.",
+  "description": "TubeDZ TV - تطبيق تشغيل يوتيوب خاص وخالٍ من الإعلانات لشاشات سامسونج تايزن (Private & Ad-Free YouTube for Tizen TVs).",
   "packageType": "mods",
   "websiteURL": "https://youtube.com/tv?additionalDataUrl=http%3A%2F%2Flocalhost%3A8085%2Fdial%2Fapps%2FYouTube",
   "main": "dist/userScript.js",
-  "author": "Reis Can",
+  "author": "TubeDZ",
   "serviceFile": "dist/service.js",
   "keys": [
     "MediaPlayPause",
@@ -19,7 +19,7 @@
     "MediaTrackPrevious"
   ],
   "repository": {
-    "url": "https://github.com/reisxd/TizenTube"
+    "url": "https://github.com/rr3050026-pixel/TUBEDZ-TV-"
   },
   "license": "GPL-3.0-only"
 }

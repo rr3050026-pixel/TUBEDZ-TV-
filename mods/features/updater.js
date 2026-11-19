@@ -16,7 +16,7 @@ setTimeout(() => {
 }, 2500);
 
 function getLatestRelease() {
-    return fetch('https://api.github.com/repos/reisxd/TizenTubeCobalt/releases/latest')
+    return fetch('https://api.github.com/repos/rr3050026-pixel/TUBEDZ-TV-/releases/latest')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');

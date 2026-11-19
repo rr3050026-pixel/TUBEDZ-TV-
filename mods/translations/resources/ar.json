@@ -235,26 +235,26 @@
             }
         },
         "ttSettings": {
-            "title": "TizenTube إعدادات",
-            "madeByText": "تم تطويره بواسطة Reis Can (reisxd) مع ❤️",
-            "summary": "فتح إعدادات TizenTube"
+            "title": "إعدادات TubeDZ TV",
+            "madeByText": "تم تخصيصه وتطويره لـ TubeDZ TV مع ❤️",
+            "summary": "فتح إعدادات TubeDZ TV"
         },
         "supportTT": {
-            "title": "دعم TizenTube",
-            "subtitle": "❤️ أظهر دعمك لـ TizenTube وتطويره",
+            "title": "حول TubeDZ TV",
+            "subtitle": "📺 نسخة خاصة لشاشات سامسونج تايزن",
             "content": {
-                "1": "إذا كنت تستمتع باستخدام TizenTube وترغب في دعم تطويره، يمكنك القيام بما يلي:",
-                "2": "1. وضع نجمة على مستودع GitHub لزيادة ظهوره.",
-                "3": "2. مشاركة TizenTube مع الآخرين.",
-                "4": "إذا كنت ترغب في المساهمة ماليًا:",
-                "5": "- Buy Me A Coffee: https://www.buymeacoffee.com/reisxd (يُفضّل)",
-                "6": "- GitHub Sponsors: https://github.com/sponsors/reisxd"
+                "1": "TubeDZ TV هو تطبيق خاص لتشغيل يوتيوب بدون إعلانات وبدون مقاطع ترويجية.",
+                "2": "مبني ومخصص للاستخدام الشخصي المستقل.",
+                "3": "يدعم حجب الإعلانات وتخطي مقاطع الرعاة التلقائي.",
+                "4": "يمكنك التحكم في الإعدادات والخيارات عبر هذه القائمة.",
+                "5": "المستودع: https://github.com/rr3050026-pixel/TUBEDZ-TV-",
+                "6": "النسخة 2.1.1"
             }
         }
     },
     "welcomeMsg": {
-        "title": "مرحبًا بك في TizenTube",
-        "subtitle": "انتقل إلى الإعدادات واضغط على إعدادات TizenTube."
+        "title": "مرحبًا بك في TubeDZ TV",
+        "subtitle": "انتقل إلى الإعدادات واضغط على إعدادات TubeDZ TV."
     },
     "sponsorblock": {
         "segments": {

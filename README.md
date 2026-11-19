@@ -1,42 +1,55 @@
-# ▶️ TizenTube
-<p align="center">
-    <img width="600px" src=".github/assets/TizenTube Standalone Banner.png">
-    <br>
-    <sub> TizenTube logo, banner and README by <a href="https://github.com/Zyborg777">@Zyborg777</a> </sub>
-</p>
+# ▶️ TubeDZ TV
 
-**TizenTube** is a TizenBrew module that enhances your favourite streaming websites viewing experience by removing ads and adding support for Sponsorblock. **Now works as a standalone app!**
+**TubeDZ TV** هو تطبيق خاص ومخصص لشاشات سامسونج الذكية (Samsung Tizen TVs) لتشغيل يوتيوب بأعلى جودة، بدون إعلانات وبدون مقاطع الرعاة المزعجة (SponsorBlock).
 
-** **
-🤖 **Looking for an app for Android TVs?** Check out [TizenTube Cobalt](https://github.com/reisxd/TizenTubeCobalt). It offers everything TizenTube has for Android TVs.
+---
 
+## ✨ المميزات الرئيسية (Features)
+- 🛑 **مانع إعلانات مدمج (Ad Blocker)**: مشاهدة مستمرة بدون أي فواصل إعلانية.
+- ❗ **دعم SponsorBlock**: تخطي المقاطع الترويجية والافتتاحيات تلقائياً أو يدوياً.
+- 📺 **نمط صورة داخل صورة (PiP - Picture-in-Picture)**.
+- ⏭️ **التحكم بسرعة الفيديو**: زيادة أو إنقاص سرعة التشغيل بدقة.
+- 🔺 **دعم DeArrow**: استبدال العناوين المضللة (Clickbait) بعناوين دقيقة.
+- 🔒 **نسخة خاصة ومستقلة (Private & Offline-ready)**: إيقاف التتبع والتحليلات الخارجية والتحديثات التلقائية غير المرغوبة.
 
-<p align="left">
-    <a href="https://github.com/reisxd/TizenTubeCobalt/releases/latest">
-        <picture>
-            <img width="250px"
-                src=".github/assets/TizenTube_Cobalt_dl-button.png" />
-        </picture>
-    </a>
-</p>
+---
 
-## ❓ How to install
+## 🛠️ البناء والتطوير (Build & Compile)
 
-Follow the guide in the [Installation Guide](./docs/README.md).
+### 1. بناء حزمة المستخدم (Userscript / Mods):
+```bash
+cd mods
+npm install
+npm run build
+```
+سيتم إنشاء الملف المترجم في `dist/userScript.js`.
 
-## ✨ Features
-- 📺 **Picture-in-Picture Mode**
-- 🛑 **Ad Blocker**: Enjoy your favourite streaming website without interruptions from ads.
-- ❗ **SponsorBlock Support**: Automatically skip sponsored segments in videos.
-- ⏭️ **Video Speed Control**: Adjust playback speed to your preference.
-- 🔺 **[DeArrow](https://dearrow.ajay.app/) Support**: Remove clickbait and misleading video titles.
-- ➕ **More to come!** Request features via [issues](https://github.com/reisxd/TizenTube/issues/new).
+### 2. بناء خدمة التطبيق (DIAL Service):
+```bash
+cd service
+npm install
+npx rollup -c rollup.config.js
+```
+سيتم إنشاء الملف في `dist/service.js`.
 
-## 🌐 Community and Support 
-| Links |
-| ------------- |
-| [r/TizenTube Subreddit](https://www.reddit.com/r/TizenTube/)  |
-| [Discord Server](https://discord.gg/m2P7v8Y2qR)  | 
-| [Telegram](https://t.me/tizentubeofficial)  |
-| [Matrix Space](https://matrix.to/#/!BLE5ubNYktI30e8K0j:matrix.6513006.xyz)  |
-| [Report Issues / Request Features](https://github.com/reisxd/TizenTube/issues)  |
+### 3. بناء خدمة الـ Standalone:
+```bash
+cd standalone/service
+npm install
+npm run build
+```
+
+---
+
+## 🔒 جعل المستودع خاصاً على GitHub (Make it Private)
+
+للحفاظ على خصوصية هذا المشروع بحيث لا يراه أحد غيرك:
+1. توجه إلى صفحة المستودع على GitHub: [https://github.com/rr3050026-pixel/TUBEDZ-TV-/settings](https://github.com/rr3050026-pixel/TUBEDZ-TV-/settings)
+2. انزل إلى أسفل الصفحة إلى قسم **Danger Zone**.
+3. بجانب **Change repository visibility** اضغط على **Change to private**.
+4. أكّد العملية باتباع التعليمات التي تظهر على الشاشة.
+
+---
+
+## 📄 الترخيص (License)
+GPL-3.0-only

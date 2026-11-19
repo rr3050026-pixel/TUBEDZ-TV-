@@ -32,35 +32,7 @@ export default function modernUI(update, parameters) {
             options: [
                 {
                     name: 'GitHub',
-                    link: 'https://github.com/reisxd/TizenTube',
-                },
-                {
-                    name: 'YouTube',
-                    link: 'https://www.youtube.com/@tizenbrew',
-                },
-                {
-                    name: 'Discord',
-                    link: 'https://discord.gg/m2P7v8Y2qR',
-                },
-                {
-                    name: `Telegram (${t('settings.options.socialMedia.announcements')})`,
-                    link: 'https://t.me/tizentubecobaltofficial',
-                },
-                {
-                    name: `Telegram (${t('settings.options.socialMedia.group')})`,
-                    link: 'https://t.me/tizentubeofficial',
-                },
-                {
-                    name: t('settings.options.socialMedia.website'),
-                    link: 'https://tizentube.6513006.xyz',
-                },
-                {
-                    name: 'Buy Me A Coffee',
-                    link: 'https://www.buymeacoffee.com/reisxd',
-                },
-                {
-                    name: t('settings.options.socialMedia.githubSponsors'),
-                    link: 'https://github.com/sponsors/reisxd',
+                    link: 'https://github.com/rr3050026-pixel/TUBEDZ-TV-',
                 }
             ].map((option) => {
                 if (!qrcodes[option.name]) {

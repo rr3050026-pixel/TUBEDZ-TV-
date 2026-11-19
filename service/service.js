@@ -47,9 +47,9 @@ const dialServer = new dial.Server({
     expressApp: app,
     port: PORT,
     prefix: "/dial",
-    manufacturer: 'Reis Can',
-    modelName: 'TizenBrew',
-    friendlyName: `TizenTube (${tizen.systeminfo.getCapability('http://tizen.org/system/model_name')})`,
+    manufacturer: 'TubeDZ TV',
+    modelName: 'TubeDZ',
+    friendlyName: `TubeDZ TV (${tizen.systeminfo.getCapability('http://tizen.org/system/model_name')})`,
     uuid: uuid.v5(tizen.systeminfo.getCapability('http://tizen.org/system/tizenid'), '4bcbc514-bdd6-4163-8215-316526fd1d9b'),
     delegate: {
         getApp(appName) {

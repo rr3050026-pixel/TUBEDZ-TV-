@@ -59,7 +59,7 @@ const defaultConfig = {
   disabledSidebarContents: [],
   sidebarContentsOrder: [],
   disableChannelsOnSidebar: false,
-  enableUpdater: true,
+  enableUpdater: false,
   autoFrameRate: false,
   autoFrameRatePauseVideoFor: 0,
   enableSigninReminder: false,
